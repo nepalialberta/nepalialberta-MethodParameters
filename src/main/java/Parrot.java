@@ -26,6 +26,16 @@ public class Parrot {
      * @return text.
      */
     public String copy(String text){
-        return "return text please!";
+
+       
+        return text;
+
+        }
+
+        public static void main(String[] args){
+
+            Parrot newText = new Parrot();
+            newText.copy("Hello");
+
+        }
     }
-}
